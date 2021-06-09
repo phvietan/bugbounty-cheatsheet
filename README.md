@@ -25,6 +25,7 @@
 - Cert pinnings script kiddies :cry: : https://github.com/shroudedcode/apk-mitm
 - Data flow analysis: https://github.com/secure-software-engineering/FlowDroid
 - Auto recon app Drozer: https://github.com/FSecureLABS/drozer
+- Sinks: WebView.addJavascriptInterface, WebView.createWebMessageChannel, ... FlowDroid
 
 # Tips:
 
