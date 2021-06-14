@@ -18,6 +18,7 @@
 - XSS sinks: https://book.hacktricks.xyz/pentesting-web/xss-cross-site-scripting/dom-xss
 - WAF bypass OS command: https://www.slideshare.net/secret/7IIcnFoZuGke8X
 - Web hardcore vulns (in case I forget): XSLeaks, SSTI, Web cache poison, Prototype pollution, Crypto
+- Email parsing: https://twitter.com/s0md3v/status/1173603213469110273
 
 ## Android
 
