@@ -1,6 +1,6 @@
 # Note:
 - Interesting characters: \, ', ", @, #, !, |, \n, \r
-
+- Content-type: text/xml, application/xml
 # Steps:
 
 - 1: Recon
