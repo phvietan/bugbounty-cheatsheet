@@ -1,5 +1,5 @@
 # Note:
-- Interesting characters: \, ', ", @, #, !, |
+- Interesting characters: \, ', ", @, #, !, |, \n, \r
 
 # Steps:
 
@@ -28,6 +28,7 @@
   + "<an@gmail.com>"@gmail.com
   + "an@gmail.com;"@gmail.com
   + "an@gmail.com+"@gmail.com
+  + Sometimes \n inject SMTP command, read here: https://www.acunetix.com/blog/articles/email-header-injection/
 
 ## Android
 
