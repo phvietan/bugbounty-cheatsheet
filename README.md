@@ -1,6 +1,7 @@
 # Note:
 - Interesting characters: \, ', ", @, #, !, |, \n, \r
 - Content-type: text/xml, application/xml
+- TODO: log unique dns traffic: https://www.youtube.com/watch?v=aNQg9mg4WNI 4'37
 # Steps:
 
 - 1: Recon
