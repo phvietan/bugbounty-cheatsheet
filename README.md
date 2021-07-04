@@ -32,6 +32,8 @@
   + "an@gmail.com+"@gmail.com
   + Sometimes \n inject SMTP command, read here: https://www.acunetix.com/blog/articles/email-header-injection/
 - HTTP leaks: https://github.com/cure53/HTTPLeaks
+- (Blind) SSRF cheatsheet: git@github.com:phvietan/bugbounty-cheatsheet.git
+
 ## Android
 
 - Reverse: JEB, or go online :smile:
