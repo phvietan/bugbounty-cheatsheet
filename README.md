@@ -8,7 +8,7 @@
   + 1.1: Features
   + 1.2: Domains, Ips
   + 1.3: Apps (Android, ios)
-- 2: PLAN, LIST ATTACK VECTORS
+- 2: PLAN, LIST ATTACK VECTORS: ALWAYS LIST ALL OF COMPONENTS IN THEIR SYSTEM (IN DATABASE FOR EXAMPLE)
 - XXX: Scans, discoveries (paths, port, ...) 
 - 3: Auto exploit (Jaeles) for: XSS, SQLi, NoSQLi, SSRF
 - 4: plz be optimistic :cry:
