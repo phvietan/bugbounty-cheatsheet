@@ -1,7 +1,8 @@
 # Note:
-- Interesting characters: \, ', ", @, #, !, |, \n, \r
+- Interesting characters: \, ', ", @, #, !, |, \n, \r, $, `
 - Content-type: text/xml, application/xml
 - TODO: log unique dns traffic: https://www.youtube.com/watch?v=aNQg9mg4WNI 4'37
+
 # Steps:
 
 - 1: Recon
@@ -41,6 +42,7 @@
 - Data flow analysis: https://github.com/secure-software-engineering/FlowDroid
 - Auto recon app Drozer: https://github.com/FSecureLABS/drozer
 - Sinks: WebView.addJavascriptInterface, WebView.createWebMessageChannel, ... FlowDroid
+- APK leak: https://github.com/dwisiswant0/apkleaks
 
 # Tips:
 
