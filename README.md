@@ -18,7 +18,7 @@
 
 ## Webs
 
-- Weird proxies: https://github.com/GrrrDog/weird_proxies
+- Weird proxies: https://github.com/GrrrDog/weird_proxies (https://speakerdeck.com/greendog/2-and-a-bit-of-magic)
 - XSS: https://netsec.expert/posts/xss-in-2021/
 - XSS sinks: https://book.hacktricks.xyz/pentesting-web/xss-cross-site-scripting/dom-xss
 - WAF bypass OS command: https://www.slideshare.net/secret/7IIcnFoZuGke8X
