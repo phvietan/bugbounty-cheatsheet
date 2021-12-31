@@ -1,3 +1,4 @@
+.yarnignore
 actuator
 gateway
 meson.build
