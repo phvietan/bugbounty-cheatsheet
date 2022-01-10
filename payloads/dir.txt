@@ -1,11 +1,29 @@
 .yarnignore
 actuator
-gateway
+server.py
+schema/
+schemas/
+common/
+common
+Cargo.toml
+.mvn/
+sql/
+gateway/
+wrapper/
+.flaskenv
+mvnw
+.pm2
+ecosystem.config.js
 meson.build
 .air.toml
+.asf.yaml
+.fossa.yml
+lombok.config
 tslint.json
 cypress.json
+.python_history
 babel.config.js
+docusaurus.config.js
 junit.xml
 requirements.txt
 Chart.yaml
@@ -33,6 +51,7 @@ server.php
 server.jsp
 app.py
 app.sh
+tox.ini
 run.sh
 run.js
 run.py
@@ -110,7 +129,6 @@ login;/..;/admin
 .c9/
 .c9revisions/
 .cabal-sandbox/
-.cache
 .cache/
 .capistrano
 .capistrano/
@@ -135,10 +153,10 @@ login;/..;/admin
 .composer
 .concrete/DEV_MODE
 .conf
-.config
 .config.php.swp
 .config/
 .config/filezilla/sitemanager.xml.xml
+filezilla
 .config/psi+/profiles/default/accounts.xml
 .configuration.php.swp
 .consulo/
@@ -550,7 +568,6 @@ php.ini-production
 .subversion
 .sucuriquarantine/
 .sunw
-.svn
 .svn/
 .svn/all-wcprops
 .svn/entries
@@ -670,7 +687,6 @@ _h5ai/
 _include
 _index.php
 _install
-_layouts
 _layouts/
 _layouts/alllibs.htm
 _layouts/settings.htm
@@ -682,7 +698,6 @@ _log/access_log
 _log/error-log
 _log/error.log
 _log/error_log
-_logs
 _logs/
 _logs/access-log
 _logs/access.log
@@ -704,7 +719,6 @@ _pages
 _phpmyadmin/
 _pkginfo.txt
 _private
-_Pvt_Extensions
 _site/
 _source
 _SQL
@@ -723,7 +737,6 @@ _vti_pvt/
 _vti_pvt/service.pwt
 _vti_pvt/users.pwt
 _WEB_INF/
-_wpeprivate
 _wpeprivate/
 _wpeprivate/config.json
 _www
@@ -745,6 +758,7 @@ access_.log
 access_log
 access_log.1
 accesslog
+account
 account.html
 account.php
 accounts
@@ -843,6 +857,7 @@ admin/cp
 admin/cp.html
 admin/cp.php
 admin/db/
+default
 admin/default
 admin/default.asp
 admin/default/admin.asp
@@ -960,12 +975,6 @@ adminer/adminer.php
 adminer_coverage.ser
 adminis.php
 administer/
-administr8
-administr8.php
-administr8/
-administracao.php
-administracion.php
-administracion/
 administrador/
 administrateur.php
 administrateur/
@@ -1208,11 +1217,8 @@ backup
 backup.7z
 backup.htpasswd
 backup.inc
-backup.inc.old
-backup.old
 backup.rar
 backup.sql
-backup.sql.old
 backup.tar
 backup.tar.bz2
 backup.tar.gz
@@ -3218,7 +3224,6 @@ server-info
 server-status/
 server.cfg
 server.js
-server.go
 server.log
 Server.php
 server.pid
