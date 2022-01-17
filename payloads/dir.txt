@@ -4,6 +4,10 @@ gateway
 meson.build
 .air.toml
 tslint.json
+varz
+statusz
+rpcz
+healthz
 cypress.json
 babel.config.js
 junit.xml
