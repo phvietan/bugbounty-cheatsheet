@@ -4,6 +4,8 @@ server.py
 schema/
 schemas/
 common/
+../../../../../../../../../../../etc/passwd
+../../../../../../../../../../../etc/shadow
 data/
 models/
 common
@@ -3243,10 +3245,11 @@ services/
 services/config/databases.yml
 servlet/
 servlet/%C0%AE%C0%AE%C0%AF
+oracle.xml.xsql.XSQLServlet/
+webapps/
 servlet/Oracle.xml.xsql.XSQLServlet/soapdocs/webapps/soap/WEB-INF/config/soapConfig.xml
 servlet/oracle.xml.xsql.XSQLServlet/soapdocs/webapps/soap/WEB-INF/config/soapConfig.xml
 servlet/Oracle.xml.xsql.XSQLServlet/xsql/lib/XSQLConfig.xml
-servlet/oracle.xml.xsql.XSQLServlet/xsql/lib/XSQLConfig.xml
 servlet/SnoopServlet
 session/
 sessions/
@@ -3317,6 +3320,7 @@ smblogin/
 snoop.jsp
 soap/
 soapdocs/
+soapConfig.xml
 soapdocs/webapps/soap/WEB-INF/config/soapConfig.xml
 soapserver/
 source
@@ -3574,10 +3578,6 @@ timeline.xctimeline
 tiny_mce/
 tiny_mce/plugins/filemanager/examples.html
 tiny_mce/plugins/imagemanager/pages/im/index.html
-tinyfilemanager-2.0.1/
-tinyfilemanager-2.0.2/
-tinyfilemanager-2.2.0/
-tinyfilemanager-2.3/
 tinyfilemanager.php
 tinyfilemanager/
 tinymce/
