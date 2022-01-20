@@ -3,6 +3,7 @@ actuator
 server.py
 schema/
 schemas/
+settings
 common/
 ../../../../../../../../../../../etc/passwd
 ../../../../../../../../../../../etc/shadow
