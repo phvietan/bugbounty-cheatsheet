@@ -26,6 +26,7 @@
 - XSS: https://netsec.expert/posts/xss-in-2021/
 - XSS 20 chars: https://jlajara.gitlab.io/web/2019/11/30/XSS_20_characters.html
 - XSS sinks: https://book.hacktricks.xyz/pentesting-web/xss-cross-site-scripting/dom-xss
+- CRLF bypass: https://blog.innerht.ml/twitter-crlf-injection/
 - WAF bypass OS command: https://www.slideshare.net/secret/7IIcnFoZuGke8X
 - Web hardcore vulns (in case I forget): XSLeaks, SSTI, Web cache poison, Prototype pollution, Crypto
 - IDOR, autorize, autorepeater: https://www.youtube.com/watch?v=3K1-a7dnA60
