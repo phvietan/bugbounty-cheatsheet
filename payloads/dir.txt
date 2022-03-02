@@ -3,6 +3,16 @@ actuator
 server.py
 schema/
 schemas/
+.swiftformat
+.swiftlint.yml
+.swift-version
+swiftgen.yml
+Package.swift
+Package.resolved
+Podfile
+Podfile.lock
+Earthfile
+earthfile
 settings
 common/
 ../../../../../../../../../../../etc/passwd
