@@ -34,4 +34,4 @@ async function main() {
   process.exit(0);
 }
 
-main().then().catch((err) => console.log(err));
+main();
