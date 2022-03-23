@@ -1,0 +1,16 @@
+{
+  "name": "hacks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ipCheck.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@drstrain/drutil": "^1.1.9",
+    "@drstrain/shadeless-lib": "^1.0.3"
+  }
+}
