@@ -1,35 +1,22 @@
-const {PathQL, ParsedPath} = require('@drstrain/shadeless-lib');
-const fs = require('fs/promises');
-const {exec,getRandomString} = require('@drstrain/drutil');
-const creds = require('./creds.json');
+const {ParsedPath, FuzzStatus, ParsedPacket} = require('@drstrain/shadeless-lib');
+const {systemStr} = require('@drstrain/drutil');
 
-var spawn = require('child_process').spawn;
+const { pathQL, packetQL } = require('./init');
 
-const pql = new PathQL({
-  choosingProject: 'test',
-  ...creds,
-});
-
-async function runStrangeBust(url) {
-  return new Promise((resolve, reject) => {
-    const bruter = spawn('strangebust', ['run', '-u', url]);
-
-    bruter.stdout.on('data', function (data) {
-      console.log(data.toString().trim());
-    });
-    bruter.stderr.on('data', function (data) {
-      console.log(data.toString().trim());
-    });
-    bruter.on('exit', function (code) {
-      console.log('child process exited');
-      console.log("=============================");
-      resolve();
-    });
+/**
+ * @param {string} url
+ * @param {ParsedPacket} packet
+ */
+async function runStrangeBust(url, packet) {
+  let cmd = `strangebust run -u ${url}`;
+  if (packet) packet.requestHeaders.forEach(p => {
+    cmd += ` --header "${p}"`;
   });
+  console.log(`Command: ${cmd}`);
+  await systemStr(cmd);
 }
 
 /**
- * 
  * @param {ParsedPath[]} paths 
  */
 async function brute(paths) {
@@ -37,15 +24,19 @@ async function brute(paths) {
   console.log('About to brute following urls');
   console.log(urls);
   console.log("=============================");
-  for (let i = 0; i < urls.length; ++i) {
-    const url = urls[i];
-    await runStrangeBust(url);
-    await pql.setQueryDone([paths[i]]); // Set done 1 paths[i] only
+  for (let i = 0; i < paths.length; ++i) {
+    const url = `${paths[i].origin}${paths[i].path}`;
+    const { requestPacketId } = paths[i];
+    const parsedPacket = await packetQL.setStatus(FuzzStatus.ANY).query({ requestPacketId });
+    console.log({ requestPacketId });
+    console.log(parsedPacket);
+    await runStrangeBust(url, parsedPacket[0]);
+    await pathQL.setQueryDone([paths[i]]); // Set done 1 paths[i] only
   }
 }
 
 async function main() {
-  const paths = await pql.query();
+  const paths = await pathQL.query();
   await brute(paths.slice(0, 5));
   process.exit(0);
 }
