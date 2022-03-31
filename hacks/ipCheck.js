@@ -1,8 +1,7 @@
-const {FuzzStatus} = require('@drstrain/shadeless-lib');
 const fs = require('fs/promises');
-const {systemStr,getRandomString} = require('@drstrain/drutil');
+const {system,getRandomString} = require('@drstrain/drutil');
 
-const { packetQL } = require('./init');
+const { packetQL } = require('./libs/init');
 
 function getHostFromHeaders(headers) {
   for (let i = 0; i < headers.length; ++i) {
@@ -13,8 +12,7 @@ function getHostFromHeaders(headers) {
 
 async function main() {
   const packets = await packetQL
-      .setStatus(FuzzStatus.ANY)
-      .setRequestHeader('host:')
+      .setRequestHeader('Host:')
       .query();
 
   const hosts = packets.map(({ requestHeaders }) => getHostFromHeaders(requestHeaders));
@@ -24,8 +22,7 @@ async function main() {
   await fs.writeFile(randomName, uniqeHosts.reduce((prev, now) => prev+now+'\n'), '');
 
   console.log(`Found ${uniqeHosts.length} hosts, running ip check`);
-  await systemStr(`python3 hosts.py ${randomName}`);
-
+  await system('python3', ['hosts.py', randomName]);
   await fs.rm(randomName);
   process.exit(0);
 }

@@ -16,6 +16,7 @@ const craftPayload = (req, data) => {
     myLog(`${key}: ${value}\r`);
   }
   myLog(`\r`);
+  myLog(data);
 }
 
 const requestListener = async function (req, res) {
@@ -31,4 +32,6 @@ const requestListener = async function (req, res) {
 }
 
 const server = http.createServer(requestListener);
-server.listen(2344, '0.0.0.0');
+server.listen(2344, '0.0.0.0', () => {
+  console.log('running on port 2344');
+});
