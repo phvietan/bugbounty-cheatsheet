@@ -1177,6 +1177,8 @@ api.log
 api/
 api/error_log
 api/swagger-ui.html
+swagger-ui
+swagger-ui/
 apibuild.pyc
 apidocs/
 apidocs/api-docs.json
