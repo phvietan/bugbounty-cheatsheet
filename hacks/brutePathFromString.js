@@ -1,7 +1,7 @@
 const {system} = require('@drstrain/drutil');
 
-s = "https://d.line-scdn.net/n/_4/torimochi.js/public/v1/release/stable/min/torimochi.js";
-s = "https://line-objects-internal.com/assets/biz-manager/edge/js/xlt-en-domain-sideMenu-json.js";
+// s = "https://static.navercorp.com/static/site/nss/img/spr.png";
+// s = "https://line-objects-internal.com/assets/biz-manager/edge/js/xlt-en-domain-sideMenu-json.js";
 
 async function brutePathFromString(s) {
   const u = new URL(s);
@@ -18,6 +18,7 @@ async function brutePathFromString(s) {
   process.exit(0);
 }
 
+s = "https://lanimg-beta.line-apps.com/lan/tempimage/TelemedicineCMS_LHC/notice/ja/1799dc47a91_3b05b530c2eec62dc3524de2cafca7e2.jpeg";
 brutePathFromString(s);
 
 async function brutePathFromArray(arr) {
@@ -28,19 +29,7 @@ async function brutePathFromArray(arr) {
   process.exit(0);
 }
 
-// brutePathFromArray([
-//   // 'https://d.line-scdn.net/n/_4/torimochi.js/public/v1/build/',
-//   // 'https://d.line-scdn.net/n/_4/torimochi.js/public/build/',
-//   // 'https://d.line-scdn.net/n/_4/torimochi.js/public/',
-//   // 'https://d.line-scdn.net/n/_4/torimochi.js/js/',
-//   // 'https://d.line-scdn.net/n/member/',
-//   // 'https://d.line-scdn.net/n/main/',
-//   // 'https://d.line-scdn.net/n/account/',
-//   // 'https://d.line-scdn.net/n/common/',
-
-//   //
-//   'https://d.line-scdn.net/n/member/js/',
-//   'https://d.line-scdn.net/n/account/js/',
-//   'http://static.naver.jp/matome_sp/js/',
-//   'http://static.naver.jp/matome/js/',
-// ]);
+brutePathFromArray([
+  'https://lanimg-beta.line-apps.com/lan/tempimage/static',
+  'https://lanimg-beta.line-apps.com/lan/tempimage/test/',
+]);
