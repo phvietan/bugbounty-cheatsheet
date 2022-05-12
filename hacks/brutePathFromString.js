@@ -1,8 +1,5 @@
 const {system} = require('@drstrain/drutil');
 
-s = "https://d.line-scdn.net/n/_4/torimochi.js/public/v1/release/stable/min/torimochi.js";
-s = "https://line-objects-internal.com/assets/biz-manager/edge/js/xlt-en-domain-sideMenu-json.js";
-
 async function brutePathFromString(s) {
   const u = new URL(s);
   const path = u.pathname;
@@ -14,10 +11,11 @@ async function brutePathFromString(s) {
     curPath += parsedPath[i] + '/';
     await system('strangebust', ['run', '-u', `${origin}${curPath}`]);
   }
-  
+
   process.exit(0);
 }
 
+var s = "https://safevuln.com/user/khoiasd/profile";
 brutePathFromString(s);
 
 async function brutePathFromArray(arr) {
@@ -28,19 +26,14 @@ async function brutePathFromArray(arr) {
   process.exit(0);
 }
 
-// brutePathFromArray([
-//   // 'https://d.line-scdn.net/n/_4/torimochi.js/public/v1/build/',
-//   // 'https://d.line-scdn.net/n/_4/torimochi.js/public/build/',
-//   // 'https://d.line-scdn.net/n/_4/torimochi.js/public/',
-//   // 'https://d.line-scdn.net/n/_4/torimochi.js/js/',
-//   // 'https://d.line-scdn.net/n/member/',
-//   // 'https://d.line-scdn.net/n/main/',
-//   // 'https://d.line-scdn.net/n/account/',
-//   // 'https://d.line-scdn.net/n/common/',
-
-//   //
-//   'https://d.line-scdn.net/n/member/js/',
-//   'https://d.line-scdn.net/n/account/js/',
-//   'http://static.naver.jp/matome_sp/js/',
-//   'http://static.naver.jp/matome/js/',
-// ]);
+brutePathFromArray([
+  // 'https://www.lifebox.vn/about/',
+  // 'https://www.lifebox.vn/',
+  // 'https://www.lifebox.vn/ui/jsp/',
+  // 'https://www.lifebox.vn/ui/',
+  // 'https://www.lifebox.vn/ui/app/',
+  // 'https://www.lifebox.vn/ui/app/static/',
+  // 'https://www.lifebox.vn/ui/app/static/assets/',
+  // 'https://www.lifebox.vn/ui/app/static/assets/brand/',
+  // 'https://www.lifebox.vn/ui/html/',
+]);

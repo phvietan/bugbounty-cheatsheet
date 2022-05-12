@@ -32,7 +32,7 @@ async function brute(paths) {
 
 async function main() {
   const paths = await pathQL.setStatus(FuzzStatus.TODO).query();
-  await brute(paths.slice(0, 5));
+  await brute(paths.slice(0, 150));
   process.exit(0);
 }
 

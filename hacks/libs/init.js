@@ -1,7 +1,7 @@
 const { PathQL, PacketQL, ToolNoteQL } = require('@drstrain/shadeless-lib');
 
 const opts = {
-  choosingProject: 'test',
+  choosingProject: 'duckduckgo',
   ...require('./creds.json'),
 }
 
