@@ -1,4 +1,14 @@
 foreman.conf
+aws.xml
+dbnavigator.xml
+gradle.xml
+jarRepositories.xml
+uiDesigner.xml
+contentModel.xml
+dictionaries
+compiler.xml
+dynamic.xml
+dataSources
 .foreman
 .nanoignore
 .yarnclean
@@ -414,6 +424,7 @@ php.ini-production
 .hypothesis/
 .idea
 .idea/
+.idea/jarRepositories.xml
 .idea/.name
 .idea/caches
 .idea/compiler.xml

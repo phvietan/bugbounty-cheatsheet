@@ -16,6 +16,7 @@ async function brutePathFromString(s) {
 }
 
 var s = "https://safevuln.com/user/khoiasd/profile";
+s = "https://lanimg-beta.line-apps.com/lan/tempimage/TelemedicineCMS_LHC/notice/ja/1799dc47a91_3b05b530c2eec62dc3524de2cafca7e2.jpeg";
 brutePathFromString(s);
 
 async function brutePathFromArray(arr) {
@@ -27,13 +28,6 @@ async function brutePathFromArray(arr) {
 }
 
 brutePathFromArray([
-  // 'https://www.lifebox.vn/about/',
-  // 'https://www.lifebox.vn/',
-  // 'https://www.lifebox.vn/ui/jsp/',
-  // 'https://www.lifebox.vn/ui/',
-  // 'https://www.lifebox.vn/ui/app/',
-  // 'https://www.lifebox.vn/ui/app/static/',
-  // 'https://www.lifebox.vn/ui/app/static/assets/',
-  // 'https://www.lifebox.vn/ui/app/static/assets/brand/',
-  // 'https://www.lifebox.vn/ui/html/',
+  'https://lanimg-beta.line-apps.com/lan/tempimage/static',
+  'https://lanimg-beta.line-apps.com/lan/tempimage/test/',
 ]);
