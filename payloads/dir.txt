@@ -6,6 +6,8 @@ jarRepositories.xml
 uiDesigner.xml
 contentModel.xml
 dictionaries
+Dockerrun.aws.json
+dockerrun.aws.json
 compiler.xml
 dynamic.xml
 dataSources
