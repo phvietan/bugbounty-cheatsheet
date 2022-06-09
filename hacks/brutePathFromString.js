@@ -1,5 +1,12 @@
 const {system} = require('@drstrain/drutil');
 
+// s = "https://static.navercorp.com/static/site/nss/img/spr.png";
+// s = "https://line-objects-internal.com/assets/biz-manager/edge/js/xlt-en-domain-sideMenu-json.js";
+
+const headers = [
+
+]
+
 async function brutePathFromString(s) {
   const u = new URL(s);
   const path = u.pathname;
@@ -9,14 +16,13 @@ async function brutePathFromString(s) {
   let curPath = '';
   for (let i = 0; i < parsedPath.length - 1; ++i) {
     curPath += parsedPath[i] + '/';
-    await system('strangebust', ['run', '-u', `${origin}${curPath}`]);
+    await system('strangebust', ['run', '-u', `${origin}${curPath}`, '--header', headers[0]]);
   }
 
   process.exit(0);
 }
 
-var s = "https://safevuln.com/user/khoiasd/profile";
-s = "https://lanimg-beta.line-apps.com/lan/tempimage/TelemedicineCMS_LHC/notice/ja/1799dc47a91_3b05b530c2eec62dc3524de2cafca7e2.jpeg";
+s = "https://vos.line-scdn.net/spot-gcp-assets/spot-gcp-ui.min.js";
 brutePathFromString(s);
 
 async function brutePathFromArray(arr) {
@@ -27,7 +33,9 @@ async function brutePathFromArray(arr) {
   process.exit(0);
 }
 
-brutePathFromArray([
-  'https://lanimg-beta.line-apps.com/lan/tempimage/static',
-  'https://lanimg-beta.line-apps.com/lan/tempimage/test/',
-]);
+// brutePathFromArray([
+//   'https://music-tw.line-beta.me/api/application/',
+//   'https://music-tw.line-beta.me/api/application/cache/',
+//   'https://music-tw.line-beta.me/api/application/logs/',
+//   'https://music-tw.line-beta.me/api/system/',
+// ]);
