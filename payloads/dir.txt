@@ -11,6 +11,7 @@ traefik
 values.yml
 values.yaml
 uiDesigner.xml
+qodana.yaml
 contentModel.xml
 events
 ui
