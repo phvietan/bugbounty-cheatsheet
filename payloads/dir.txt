@@ -6,6 +6,9 @@ foreman.conf
 aws.xml
 hie.yaml
 Main.hs
+next.config.js
+next.config.ts
+next.config.mjs
 main.hs
 hie.yml
 Setup.hs
