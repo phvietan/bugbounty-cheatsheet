@@ -29,6 +29,8 @@ Run rootAVD.bat file, use the 1st command, but choose your architect correctly, 
 
 #### Install Burp
 
+##### Android < 10
+
 https://book.hacktricks.xyz/mobile-pentesting/android-app-pentesting/install-burp-certificate
 
 If you can run `adb root`:
@@ -44,6 +46,10 @@ If you can get root shell:
     su
     mount -o rw,remount /system
 ```
+
+##### Android >= 10
+
+https://gist.github.com/pwlin/8a0d01e6428b7a96e2eb?permalink_comment_id=3499340
 
 Then proceed to copy the cert into system
 
