@@ -17,6 +17,7 @@ setup.hs
 pnpm-workspaces.yaml
 stack.yaml
 artifactory.json
+package-info.java
 cobuild.json
 lerna.json
 rush.json
@@ -74,6 +75,7 @@ artifactory/ui/auth/login
 dictionaries
 Dockerrun.aws.json
 dockerrun.aws.json
+docker
 compiler.xml
 dynamic.xml
 Pacs/login.php
@@ -120,14 +122,18 @@ files
 .husky/pre-push
 .husky/commit-msg
 .husky/prepare-commit-msg
+key.properties
 gradle.properties
 build.gradle.kts
+build.gradle
 gradlew
 gradlew.bat
+settings.gradle
 settings.gradle.kts
 .prettierrc
 .prettierrc.yml
 .prettierrc.yaml
+analysis_options.yaml
 .prettierrc.json5
 .prettierrc.json
 .prettierrc.js
@@ -214,14 +220,17 @@ setup.rb
 vue.config.js
 .helmignore
 setup.jsp
+webpack.common.js
 tailwind.config.js
 init.php
+webpack.dev.js
 init.rb
 init.py
 init.go
 init.js
 main.py
 main.sh
+webpack.prod.js
 main.rb
 main.js
 main.jsp
@@ -723,6 +732,7 @@ php.ini-production
 .spamassassin
 .spyderproject
 .spyproject
+dto
 .sql
 .sql.bz2
 .sql.gz
@@ -1248,7 +1258,9 @@ ak47.php
 akeeba.backend.log
 all/
 amad.php
+kustomize
 amministratore.php
+global.json
 analog.html
 anchor/errors.log
 answers/
@@ -1535,6 +1547,7 @@ Build.bat
 build.local.xml
 build.log
 build.properties
+catalog-info.yaml
 build.sh
 build.xml
 build/
@@ -1680,10 +1693,12 @@ command.php
 common.inc
 common.xml
 common/
+main.dart
 common/config/api.ini
 common/config/db.ini
 compass.rb
 compile
+pyproject.toml
 compile_commands.json
 components/
 composer.json
@@ -1791,6 +1806,7 @@ configuration.php.swp
 configuration.php.txt
 configuration.php~
 configuration/
+firebase.json
 configure
 configure.scan
 conflg.php
@@ -1883,6 +1899,7 @@ dam.php
 data-nseries.tsv
 data.mdb
 data.sql
+main.cc
 data.sqlite
 data.tsv
 data.txt
@@ -2027,12 +2044,16 @@ doc/api/
 docker-compose-dev.yml
 docker-compose.yml
 Dockerfile
+kafka
 DocProject/buildhelp/
 DocProject/Help/html
 DocProject/Help/Html2
 docs.json
 docs/
 docs/_build/
+Directory.Build.targets
+Directory.Build.props
+Directory.Packages.props
 docs/specification.json
 docs/schemas.json
 docs/versions.json
@@ -2101,6 +2122,8 @@ engine/
 engine/log.txt
 env
 env.bak/
+pnpm-lock.yaml
+pnpm-workspace.yaml
 env.js
 env.json
 env.list
@@ -2353,6 +2376,7 @@ home.rar
 home.tar
 home.tar.gz
 home.zip
+jetty
 Homestead.json
 Homestead.yaml
 host-manager/
@@ -2554,6 +2578,7 @@ lia.cache
 lib-cov
 lib/
 flex/
+devtools_options.yaml
 .flexProperties
 lib/bundler/man/
 lib/fckeditor/
@@ -2601,6 +2626,7 @@ local/
 local_bd_new.txt
 local_bd_old.txt
 local_settings.py
+RunnerTests
 localhost.sql
 localsettings.php.bak
 localsettings.php.dist
@@ -2737,6 +2763,7 @@ MAINTAINERS.txt
 maintenance.flag
 maintenance.flag.bak
 maintenance.flag2
+nuget.config
 maintenance.html
 maintenance.php
 maintenance/
@@ -2902,6 +2929,7 @@ New%20folder%20(2)
 new.php
 newbbs/
 newbbs/login
+nginx
 newsadmin/
 ng-cli-backup.json
 nginx-access.log
