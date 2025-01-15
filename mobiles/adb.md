@@ -53,3 +53,7 @@ https://gist.github.com/pwlin/8a0d01e6428b7a96e2eb?permalink_comment_id=3499340
 
 Then proceed to copy the cert into system
 
+### Pinning
+
+https://codeshare.frida.re/@akabe1/frida-multiple-unpinning/
+
