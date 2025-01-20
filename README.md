@@ -42,4 +42,5 @@
 - Use money
 - Recon for public assets (like hackathon-related assets): sometimes companies run hackathons and give attendees special access to certain API endpoints and/or temporary credentials
 - CSRF change body to querystring because may uses @RequestParam
-
+- Look for XSLeaks like window.length
+- Look for clickjacking on sensitive content
