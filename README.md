@@ -44,3 +44,4 @@
 - CSRF change body to querystring because may uses @RequestParam
 - Look for XSLeaks like window.length
 - Look for clickjacking on sensitive content
+- Search "package.json" in js files misconfig may leak stuff
