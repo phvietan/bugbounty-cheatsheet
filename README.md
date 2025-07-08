@@ -46,4 +46,4 @@
 - Look for clickjacking on sensitive content
 - Search "package.json" in js files misconfig may leak stuff
 - Look for potential dependency confuse
-- URL obfucation on android/ios app
+- URL obfucation on android/ios app `https://example.com%20%20@evil.com`
